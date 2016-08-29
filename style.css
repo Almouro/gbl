@@ -2121,3 +2121,63 @@ video {
 		margin: 0 55px 0 0;
 	}
 }
+
+.wp-post-image {
+  width: 100%;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	max-width: 1180px;
+}
+
+article, #content.site-content .content-area {
+  width: 100%;
+}
+
+footer.site-footer {
+  display: none;
+}
+
+#tertiary.footer-widget-area {
+  /*margin: 0 auto;*/
+  /*max-width: 1180px;*/
+}
+
+#tertiary.footer-widget-area .widget-area {
+  width: 100%;
+}
+
+.site {
+  padding-right: 0;
+  padding-left: 0;
+  max-width: inherit;
+}
+
+h1.site-title:before {
+    background: url('http://gbl.gbu.fr/wp-content/uploads/2016/08/cropped-logo-gbl2.png');
+    content: '';
+    position: relative;
+    width: 300px;
+    height: 119px;
+    top: 0%;
+    left: calc(50% - 150px);
+}
+
+h1.site-title a {
+  color: white;
+}
+
+.main-navigation, button {
+  background-color: #F4353F;
+}
+
+.site-branding {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
