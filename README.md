@@ -9,6 +9,11 @@ To upload the updated style to [the GBL clone](http://clone-gbl.gbu.fr), run:
 deploy/deploy_style.sh
 ```
 
+To upload everything to [the GBL clone](http://clone-gbl.gbu.fr), run:
+```shell
+deploy/deploy.sh
+```
+
 ## Copyight
 
 This theme builds upon the [Sela WordPress Theme](https://wordpress.com/themes/sela/)
