@@ -2189,3 +2189,18 @@ h1.site-title a {
 	right: 0;
     z-index: 100;
 }
+
+@media screen and (min-width: 1180px) {
+	.content-wrapper {
+		padding: 3em 155px 3em 155px;
+	}
+}
+
+.page-id-4 .site-content img {
+	cursor: pointer;
+}
+
+.page-id-4 .entry-content {
+	width: 450px;
+	margin: 0 auto;
+}
